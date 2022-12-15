@@ -1,0 +1,19 @@
+.header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h1 {
+  left: 33.68%;
+  right: 29.31%;
+  top: 21.17%;
+  bottom: 73.51%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #fffcf9;
+}
