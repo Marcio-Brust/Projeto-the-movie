@@ -8,15 +8,13 @@ import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <div className="content">
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <div className="content">
+        <Header />
+
+        <Route path="/" element={<Home />} />
+
+        <Footer />
+      </div>
     </div>
   );
 }
