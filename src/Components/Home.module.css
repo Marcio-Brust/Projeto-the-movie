@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 30px;
 }
+
 .section {
   display: grid;
   justify-content: center;
@@ -76,12 +77,13 @@
 .carregando {
   margin: 50px auto;
   color: #fff;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   border: 50px solid #fff;
   border-left-color: transparent;
-  animation: girar 0.5s infinite;
+  border-right-color: transparent;
+  animation: girar 0.2s infinite;
 }
 
 @keyframes girar {

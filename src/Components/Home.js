@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 import logo from "../img/shuffle-2.svg";
 import poster from "../img/Poster-1.png";
+import Head from "./Head";
 
 const Home = () => {
   const [home, setHome] = React.useState(null);
@@ -57,6 +58,7 @@ const Home = () => {
   const img = `https://image.tmdb.org/t/p/w500/${home.poster_path}`;
   return (
     <section className={styles.section}>
+      <Head title={`${home.title}`} />
       <div className={styles.home}>
         <div>
           {<img className={styles.img} src={img} alt="imagem do filme" />}
