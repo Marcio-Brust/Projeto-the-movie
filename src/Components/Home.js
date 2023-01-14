@@ -11,7 +11,7 @@ const Home = () => {
 
   function handleChange() {
     const numero = Math.floor(Math.random() * 2000);
-
+    
     async function filmes(url) {
       try {
         setCarregando(true);
