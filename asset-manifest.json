@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Projeto-the-movie/static/css/main.702c388e.css",
+    "main.js": "/Projeto-the-movie/static/js/main.6985af58.js",
+    "static/media/Poster-1.png": "/Projeto-the-movie/static/media/Poster-1.9cba82ae36c568a7e6f5.png",
+    "static/media/logo.svg": "/Projeto-the-movie/static/media/logo.116c7dc812e6352ee6ca178c8e113f8f.svg",
+    "static/media/shuffle-2.svg": "/Projeto-the-movie/static/media/shuffle-2.813cfc89de7a13cf79822f0dd17d5a1d.svg",
+    "index.html": "/Projeto-the-movie/index.html",
+    "main.702c388e.css.map": "/Projeto-the-movie/static/css/main.702c388e.css.map",
+    "main.6985af58.js.map": "/Projeto-the-movie/static/js/main.6985af58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.702c388e.css",
+    "static/js/main.6985af58.js"
+  ]
+}
